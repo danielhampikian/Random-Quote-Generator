@@ -1,0 +1,31 @@
+{
+  "name": "random-quote-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "sass": "node-sass public/scss/style.scss --watch public/css/style.css ",
+    "deploy" : "gh-pages -d public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msboffl/Random-Quote-Generator.git"
+  },
+  "author": "Mareedu Saibabu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/msboffl/Random-Quote-Generator/issues"
+  },
+  "homepage": "https://github.com/msboffl/Random-Quote-Generator#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "gh-pages": "^3.2.3",
+    "node-sass": "^7.0.1",
+    "sass": "^1.49.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
