@@ -68,3 +68,12 @@ button:active {
   background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px); }
+
+@media only screen and (max-width: 430px) {
+  .quote-text {
+    font-size: 1.85rem; }
+  .quote-author {
+    font-size: 1.65rem;
+    margin: 1.25rem 0; }
+  .fa-quote-left {
+    font-size: 2.5rem; } }
